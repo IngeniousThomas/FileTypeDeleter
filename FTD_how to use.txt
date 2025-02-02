@@ -1,23 +1,65 @@
-Prerequisites:
+## **Prerequisites**  
 
-Open terminal and navigate to where FTD_suless.sh or FTD_su.sh are located.
+### **🔹 macOS & Linux**  
+1️⃣ **Open Terminal** and navigate to the folder where `FTD_suless.sh` or `FTD_su.sh` is located.  
 
+2️⃣ **Make the script executable** (only needed once on macOS/Linux):  
+   - **For `FTD_suless.sh` (Command-line version):**  
+     ```bash
+     chmod +x FTD_suless.sh
+     ```
+   - **For `FTD_su.sh` (GUI version with `dialog`):**  
+     ```bash
+     chmod +x FTD_su.sh
+     ```
 
+3️⃣ **Run the script using one of these methods:**  
+   - **Using `./` (recommended):**  
+     - For `FTD_suless.sh`:  
+       ```bash
+       ./FTD_suless.sh
+       ```
+     - For `FTD_su.sh`:  
+       ```bash
+       ./FTD_su.sh
+       ```
+   - **Using `bash` (alternative method, useful if execution permissions are missing):**  
+     - For `FTD_suless.sh`:  
+       ```bash
+       bash FTD_suless.sh
+       ```
+     - For `FTD_su.sh`:  
+       ```bash
+       bash FTD_su.sh
+       ```
+   **(You need to run this every time you want to launch the tool)**  
 
-Run --
-For FTD_suless.sh -- "chmod +x FTD_suless.sh" and hit enter (you should enter the command without " ") -- Recommended to use
-(You ONLY NEED TO PERFORM THIS COMMAND ONCE ON A MAC)
+---
 
+### **🏁 Windows**  
+#### **🔹 Batch Version (`FTD_Windows.bat`)**
+1️⃣ **Navigate to the folder** where `FTD_Windows.bat` is located.  
+2️⃣ **Run the script** using one of these methods:  
+   - **Double-click** `FTD_Windows.bat` to launch it.  
+   - **OR** open **Command Prompt (CMD)**, navigate to the script folder, and run:
+     ```cmd
+     FTD_Windows.bat
+     ```
 
-For FTD_su.sh -- "chmod +x FTD_su.sh" and hit enter (you should enter the command without " ")
-(You ONLY NEED TO PERFORM THIS COMMAND ONCE ON A MAC)
+#### **🔹 PowerShell Version (`FTD_Windows.ps1`)**
+1️⃣ **Navigate to the folder** where `FTD_Windows.ps1` is located.  
+2️⃣ **Run the script** using one of these methods:  
+   - **Right-click** `FTD_Windows.ps1` → Click **"Run with PowerShell"**.  
+   - **OR** open **PowerShell**, navigate to the folder, and run:
+     ```powershell
+     .\FTD_Windows.ps1
+     ```
+3️⃣ **If execution is restricted**, enable scripts temporarily by running:
+   ```powershell
+   Set-ExecutionPolicy Unrestricted -Scope Process
+   ```
+   (Only needed if PowerShell blocks execution)
 
+---
 
-The you can launch the application using (while terminal path is still to the folder with these files) --
-For FTD_suless.sh -- "./FTD_suless.sh" (you should enter the command without " ")
-(You need to run this every time you want to launch the tool)
-
-For FTD_su.sh -- "./FTD_su.sh" (you should enter the command without " ")
-(You need to run this every time you want to launch the tool)
-
-Enjoy!
+✅ **Enjoy!** Now you're ready to use **File Type Deleter** on **macOS, Linux, and Windows**! 🚀
