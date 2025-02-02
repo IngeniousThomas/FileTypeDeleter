@@ -1,5 +1,3 @@
----
-
 # 🗑️ **File Type Deleter (FTD)**
 
 ## 📌 **Overview**
