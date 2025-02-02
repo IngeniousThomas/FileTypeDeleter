@@ -1,73 +1,57 @@
-# **Prerequisites**  
+**Prerequisites**  
 
-## **For macOS & Linux**
-1. **Open Terminal** and navigate to the folder where `FTD_suless.sh` or `FTD_su.sh` is located.  
-2. **Make the script executable** (only needed once on macOS/Linux):  
-   - **For `FTD_suless.sh` (Command-line version):**  
-     ```sh
-     chmod +x FTD_suless.sh
-     ```
-   - **For `FTD_su.sh` (GUI version with `dialog`):**  
-     ```sh
-     chmod +x FTD_su.sh
-     ```
-3. **Run the script using one of these methods:**  
-   - **Recommended method:**  
+For macOS & Linux:  
+
+1. Open Terminal and navigate to the folder where `FTD_suless.sh` or `FTD_su.sh` is located.  
+2. Make the script executable (this only needs to be done once on macOS/Linux):  
+   - For the command-line version (`FTD_suless.sh`):  
+     chmod +x FTD_suless.sh  
+   - For the GUI version (`FTD_su.sh`):  
+     chmod +x FTD_su.sh  
+3. Run the script using one of these methods:  
+   - Recommended method:  
      - For `FTD_suless.sh`:  
-       ```sh
-       ./FTD_suless.sh
-       ```
+       ./FTD_suless.sh  
      - For `FTD_su.sh`:  
-       ```sh
-       ./FTD_su.sh
-       ```
-   - **Alternative method (if execution permission is missing):**  
+       ./FTD_su.sh  
+   - Alternative method (if execution permission is missing):  
      - For `FTD_suless.sh`:  
-       ```sh
-       bash FTD_suless.sh
-       ```
+       bash FTD_suless.sh  
      - For `FTD_su.sh`:  
-       ```sh
-       bash FTD_su.sh
-       ```
-
-   *(You need to run these commands every time you want to launch the tool.)*
+       bash FTD_su.sh  
+   - You need to run these commands every time you want to launch the tool.  
 
 ---
 
-## **For Windows**
-### **Batch Version (`FTD_Windows.bat`)**
-1. Open **File Explorer** and navigate to the folder where `FTD_Windows.bat` is located.  
-2. **Run the script** using one of these methods:  
-   - **Double-click** `FTD_Windows.bat`.  
-   - **OR** open **Command Prompt (CMD)**, navigate to the script folder, and run:  
-     ```cmd
-     FTD_Windows.bat
-     ```
+For Windows (Batch Version - `FTD_Windows.bat`):  
+
+1. Open File Explorer and navigate to the folder where `FTD_Windows.bat` is located.  
+2. Run the script using one of these methods:  
+   - Double-click `FTD_Windows.bat` to run it.  
+   - OR open Command Prompt (CMD), navigate to the script folder, and run:  
+     FTD_Windows.bat  
 
 ---
 
-### **PowerShell Version (`FTD_Windows.ps1`)**
-1. Open **File Explorer** and navigate to the folder where `FTD_Windows.ps1` is located.  
-2. **Run the script** using one of these methods:  
-   - **Right-click** `FTD_Windows.ps1` → Click **"Run with PowerShell"**.  
-   - **OR** open **PowerShell**, navigate to the folder, and run:  
-     ```powershell
-     .\FTD_Windows.ps1
-     ```
-3. **If PowerShell blocks execution**, enable scripts temporarily by running:  
-   ```powershell
-   Set-ExecutionPolicy Unrestricted -Scope Process
-   ```  
-   *(This is only needed if PowerShell prevents scripts from running.)*
+For Windows (PowerShell Version - `FTD_Windows.ps1`):  
+
+1. Open File Explorer and navigate to the folder where `FTD_Windows.ps1` is located.  
+2. Run the script using one of these methods:  
+   - Right-click `FTD_Windows.ps1` → Select "Run with PowerShell".  
+   - OR open PowerShell, navigate to the script folder, and run:  
+     .\FTD_Windows.ps1  
+3. If PowerShell blocks execution, enable scripts temporarily by running:  
+   Set-ExecutionPolicy Unrestricted -Scope Process  
+   This is only needed if PowerShell prevents scripts from running.  
 
 ---
 
-## **Summary**
-- **macOS/Linux users** must make the script executable using `chmod +x` before running it.  
-- **Windows users** can run the batch script (`.bat`) directly or use the PowerShell script (`.ps1`).  
-- **PowerShell execution policy may need to be adjusted** for `.ps1` scripts to run.  
+Summary:  
 
-Now you're ready to use **File Type Deleter** on **macOS, Linux, and Windows**! 🚀  
+- macOS/Linux users must make the script executable using `chmod +x` before running it.  
+- Windows users can run the batch script (`.bat`) directly or use the PowerShell script (`.ps1`).  
+- PowerShell execution policy may need to be adjusted for `.ps1` scripts to run.  
+
+Now you are ready to use File Type Deleter on macOS, Linux, and Windows.  
 
 ---
