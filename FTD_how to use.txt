@@ -1,0 +1,23 @@
+Prerequisites:
+
+Open terminal and navigate to where FTD_suless.sh or FTD_su.sh are located.
+
+
+
+Run --
+For FTD_suless.sh -- "chmod +x FTD_suless.sh" and hit enter (you should enter the command without " ") -- Recommended to use
+(You ONLY NEED TO PERFORM THIS COMMAND ONCE ON A MAC)
+
+
+For FTD_su.sh -- "chmod +x FTD_su.sh" and hit enter (you should enter the command without " ")
+(You ONLY NEED TO PERFORM THIS COMMAND ONCE ON A MAC)
+
+
+The you can launch the application using (while terminal path is still to the folder with these files) --
+For FTD_suless.sh -- "./FTD_suless.sh" (you should enter the command without " ")
+(You need to run this every time you want to launch the tool)
+
+For FTD_su.sh -- "./FTD_su.sh" (you should enter the command without " ")
+(You need to run this every time you want to launch the tool)
+
+Enjoy!
